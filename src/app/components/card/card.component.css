@@ -1,0 +1,45 @@
+.card__container {
+	margin: auto;
+	background: rgb(5, 5, 232);
+	background: linear-gradient(
+		132deg,
+		rgba(5, 5, 232, 1) 0%,
+		rgba(0, 29, 36, 1) 0%,
+		rgba(5, 5, 232, 1) 0%,
+		rgba(5, 5, 232, 1) 0%,
+		rgba(5, 5, 232, 0.969625350140056) 0%,
+		rgba(3, 83, 241, 1) 21%,
+		rgba(0, 190, 252, 1) 51%,
+		rgba(0, 205, 254, 1) 67%,
+		rgba(0, 205, 254, 1) 79%,
+		rgba(0, 205, 254, 1) 79%,
+		rgba(0, 205, 254, 1) 82%,
+		rgba(0, 205, 254, 1) 93%,
+		rgba(0, 194, 253, 1) 95%,
+		rgba(0, 179, 251, 1) 100%,
+		rgba(0, 212, 255, 1) 100%
+	);
+}
+
+.card__container {
+	position: relative;
+	width: 350px;
+	height: 500px;
+	border: solid 3px #3E4357;
+	border-radius: 10px;
+
+	display: flex;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.img-card__container {
+	width: 100%;
+	height: 100%;
+	transition: transform .8s;
+}
+
+.img-card__container:hover {
+	transform: scale(1.1);
+}
+

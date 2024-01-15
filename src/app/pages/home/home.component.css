@@ -1,0 +1,35 @@
+.home__container {
+	margin: auto;
+	padding: 15vh 0 1.5vh;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+}
+
+.home__container > app-card {
+    margin: 2vh;
+}
+
+.background__container {
+	background: rgb(5, 5, 232);
+	background: linear-gradient(
+		132deg,
+		rgba(5, 5, 232, 1) 0%,
+		rgba(0, 29, 36, 1) 0%,
+		rgba(5, 5, 232, 1) 0%,
+		rgba(5, 5, 232, 1) 0%,
+		rgba(5, 5, 232, 0.969625350140056) 0%,
+		rgba(3, 83, 241, 1) 21%,
+		rgba(0, 190, 252, 1) 51%,
+		rgba(0, 205, 254, 1) 67%,
+		rgba(0, 205, 254, 1) 79%,
+		rgba(0, 205, 254, 1) 79%,
+		rgba(0, 205, 254, 1) 82%,
+		rgba(0, 205, 254, 1) 93%,
+		rgba(0, 194, 253, 1) 95%,
+		rgba(0, 179, 251, 1) 100%,
+		rgba(0, 212, 255, 1) 100%
+	);
+}
